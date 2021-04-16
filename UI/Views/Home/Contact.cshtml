@@ -1,17 +1,171 @@
 ﻿@{
     ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <!-- Start Page Title Area -->
+    <div class="page-title-area defaultbg" style="background-image:url(/assets/img/page.png);">
+        <div class="breadcrumb-overly">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container">
+                        <div class="page-title-content">
+                            <h2>
+                                İletişim
+                            </h2>
+                            <ul>
+                                <li><a href="index.html">Anasayfa</a></li>
+                                <li> İletişim </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Title Area -->
+    <!-- Start Contact Area -->
+    <section class="contact-area ptb-100 mb-minus40">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12">
+                    <div class="contact-box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="content">
+                            <h4>Telefon / Faks</h4>
+                            <p><a href="#">+1-202-555-0183</a></p>
+                            <p><a href="#">+1-202-555-0145</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="contact-box">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="content">
+                            <h4>E-mail</h4>
+                            <p><a href="#">info@youwebsite.com</a></p>
+                            <p><a href="#">info@youwebsite.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="contact-box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="content">
+                            <h4>Adres</h4>
+                            <p>383/a, katasur Mohammodpur, Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="contact-text">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.847606771624!2d90.36009841453367!3d23.752813184588188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfa2ff34f5c1%3A0xfb6e3ee898f83acc!2sCodePopular%20Online%20Marketplace!5e0!3m2!1sen!2sbd!4v1582439726807!5m2!1sen!2sbd" width="100%" height="520" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form id="contactForm" action="#" method="post">
+                        <h3>İletişim</h3>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Ad Soyad" id="name" value="">
+                                    <p id="nameStatus" class="formError"></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" id="email" value="">
+                                    <p id="emailStatus" class="formError"></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Konu" id="subject" value="">
+                                    <p id="subjectStatus" class="formError"></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mesajınız" id="message"></textarea>
+                                    <p id="messageStatus" class="formError"></p>
+                                </div>
+                            </div>
+                            @*<div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label for="mathcaptcha">Please solve the following math function: <span id="firstNumber"></span> + <span id="secondNumber"></span></label>
+                                    <input class="form-control" id="mathcaptcha" type="text" name="mathcaptcha" required="required" />
+                                    <p id="captchaStatus" class="formError"></p>
+                                </div>
+                            </div>*@
+                            <div class="col-lg-12 col-md-12">
+                                <div class="send-btn">
+                                    <button type="submit" class="send-btn-one">Gönder</button>
+                                </div>
+                            </div>
+                            <div class="status-message"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Contact Area -->
+    <!-- Partner section -->
+    <!-- Partner section -->
+    <div class="partner-section services-section">
+        <div class="container">
+            <div class="partner-slider owl-carousel owl-theme">
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433142.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433324.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433311.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433297.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433283.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433258.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433243.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433228.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#">
+                        <img src="~/assets/img/client/client_1583433212.png" alt="partner">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Partner section -->        <!-- End Partner section -->

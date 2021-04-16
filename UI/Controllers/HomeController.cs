@@ -26,5 +26,24 @@ namespace UI.Controllers
 
             return View();
         }
+
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult SSS()
+        {
+            return View();
+        }
+
+        public ActionResult Error()
+        {
+            return View();
+        }
+        public ActionResult ComingSoon()
+        {
+            return View();
+        }
     }
 }
