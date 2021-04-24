@@ -171,6 +171,11 @@
     <Content Include="assets\img\client\client_1583433297.png" />
     <Content Include="assets\img\client\client_1583433311.png" />
     <Content Include="assets\img\client\client_1583433324.png" />
+    <Content Include="assets\img\client\kulucka.jpeg" />
+    <Content Include="assets\img\client\livinglav.jpeg" />
+    <Content Include="assets\img\client\nglms.jpeg" />
+    <Content Include="assets\img\client\teknopark.jpeg" />
+    <Content Include="assets\img\client\tubitak.jpeg" />
     <Content Include="assets\img\coming-soon-bg.jpg" />
     <Content Include="assets\img\comment\img-01.jpg" />
     <Content Include="assets\img\comment\img-02.jpg" />
