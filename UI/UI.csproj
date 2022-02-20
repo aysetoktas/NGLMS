@@ -162,6 +162,7 @@
     <Content Include="assets\img\blog\b_1.jpg" />
     <Content Include="assets\img\blog\single-image.jpg" />
     <Content Include="assets\img\choose-image.svg" />
+    <Content Include="assets\img\client\bll.png" />
     <Content Include="assets\img\client\client_1583433142.png" />
     <Content Include="assets\img\client\client_1583433212.png" />
     <Content Include="assets\img\client\client_1583433228.png" />
@@ -172,10 +173,14 @@
     <Content Include="assets\img\client\client_1583433311.png" />
     <Content Include="assets\img\client\client_1583433324.png" />
     <Content Include="assets\img\client\kulucka.jpeg" />
+    <Content Include="assets\img\client\kuluçka.png" />
     <Content Include="assets\img\client\livinglav.jpeg" />
     <Content Include="assets\img\client\nglms.jpeg" />
+    <Content Include="assets\img\client\nglms.png" />
     <Content Include="assets\img\client\teknopark.jpeg" />
+    <Content Include="assets\img\client\teknopark.png" />
     <Content Include="assets\img\client\tubitak.jpeg" />
+    <Content Include="assets\img\client\tübitak.png" />
     <Content Include="assets\img\coming-soon-bg.jpg" />
     <Content Include="assets\img\comment\img-01.jpg" />
     <Content Include="assets\img\comment\img-02.jpg" />
@@ -183,6 +188,7 @@
     <Content Include="assets\img\cta-bg.png" />
     <Content Include="assets\img\dots-features-left.png" />
     <Content Include="assets\img\faq-image.png" />
+    <Content Include="assets\img\favicon.ico" />
     <Content Include="assets\img\favicon.png" />
     <Content Include="assets\img\favicon1.png" />
     <Content Include="assets\img\footer-bg.jpg" />
@@ -224,6 +230,7 @@
     <Content Include="assets\img\left-shape.png" />
     <Content Include="assets\img\loader.svg" />
     <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\logo1.png" />
     <Content Include="assets\img\page-title-bg.jpg" />
     <Content Include="assets\img\page.png" />
     <Content Include="assets\img\portfolio\portfolio_1583434206.png" />
